@@ -11,7 +11,7 @@
   inputs.src-eris-0_3_1.owner = "~ehmry";
   inputs.src-eris-0_3_1.ref   = "refs/tags/0.3.1";
   inputs.src-eris-0_3_1.repo  = "eris";
-  inputs.src-eris-0_3_1.type  = "other";
+  inputs.src-eris-0_3_1.type  = "sourcehut";
   
   inputs."base32".owner = "nim-nix-pkgs";
   inputs."base32".ref   = "master";
