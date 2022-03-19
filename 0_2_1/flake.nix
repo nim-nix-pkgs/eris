@@ -9,7 +9,7 @@
   
   inputs.src-eris-0_2_1.flake = false;
   inputs.src-eris-0_2_1.owner = "~ehmry";
-  inputs.src-eris-0_2_1.ref   = "refs/tags/0.2.1";
+  inputs.src-eris-0_2_1.ref   = "0.2.1";
   inputs.src-eris-0_2_1.repo  = "eris";
   inputs.src-eris-0_2_1.type  = "sourcehut";
   
