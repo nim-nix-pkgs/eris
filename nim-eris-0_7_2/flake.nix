@@ -8,7 +8,7 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-eris-nim-eris-0_7_2.flake = false;
-  inputs.src-eris-nim-eris-0_7_2.ref   = "refs/tags/nim-eris-0.7.2";
+  inputs.src-eris-nim-eris-0_7_2.ref   = "nim-eris-0.7.2";
   inputs.src-eris-nim-eris-0_7_2.owner = "~ehmry";
   inputs.src-eris-nim-eris-0_7_2.repo  = "eris";
   inputs.src-eris-nim-eris-0_7_2.type  = "sourcehut";
