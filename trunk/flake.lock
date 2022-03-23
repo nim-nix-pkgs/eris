@@ -1,0 +1,107 @@
+{
+  "nodes": {
+    "base32": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-base32-0_1_3": "src-base32-0_1_3"
+      },
+      "locked": {
+        "dir": "0_1_3",
+        "lastModified": 1647934069,
+        "narHash": "sha256-zbitW4c26MVN0ggY426r6z5/xij3If9yCkLIuIIQ1YY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "base32",
+        "rev": "857de5cf1cb507e802cb2c9b0d776305a16b9e81",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_1_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "base32",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "base32": "base32",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-eris-trunk": "src-eris-trunk"
+      }
+    },
+    "src-base32-0_1_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1560613959,
+        "narHash": "sha256-BsDly13xsY2bu4N9LGHB0OGej/JhAx3B01TDdF0M8Jk=",
+        "owner": "OpenSystemsLab",
+        "repo": "base32.nim",
+        "rev": "f541038fbe49fdb118cc2002d29824b9fc4bfd61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "OpenSystemsLab",
+        "ref": "refs/tags/0.1.3",
+        "repo": "base32.nim",
+        "type": "github"
+      }
+    },
+    "src-eris-trunk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647452825,
+        "narHash": "sha256-P+vGXU5ei4wOO7oMi7X37Yqvbim2+a51NM5XKOucnAM=",
+        "owner": "~ehmry",
+        "repo": "eris",
+        "rev": "973cdb044c50de7a953b38dc6c03ae000713b110",
+        "type": "sourcehut"
+      },
+      "original": {
+        "owner": "~ehmry",
+        "ref": "trunk",
+        "repo": "eris",
+        "type": "sourcehut"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
