@@ -11,7 +11,6 @@
   inputs.src-eris-v0_1.ref   = "v0.1";
   inputs.src-eris-v0_1.owner = "~ehmry";
   inputs.src-eris-v0_1.repo  = "eris";
-  inputs.src-eris-v0_1.dir   = "";
   inputs.src-eris-v0_1.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

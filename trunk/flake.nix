@@ -11,7 +11,6 @@
   inputs.src-eris-trunk.ref   = "trunk";
   inputs.src-eris-trunk.owner = "~ehmry";
   inputs.src-eris-trunk.repo  = "eris";
-  inputs.src-eris-trunk.dir   = "";
   inputs.src-eris-trunk.type  = "sourcehut";
   
   inputs."base32".owner = "nim-nix-pkgs";
