@@ -65,7 +65,7 @@
         "base32": "base32",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-eris-trunk": "src-eris-trunk"
+        "src-eris-nim-eris-0_7_2": "src-eris-nim-eris-0_7_2"
       }
     },
     "src-base32-0_1_3": {
@@ -85,7 +85,7 @@
         "type": "github"
       }
     },
-    "src-eris-trunk": {
+    "src-eris-nim-eris-0_7_2": {
       "flake": false,
       "locked": {
         "lastModified": 1647452825,
@@ -97,7 +97,7 @@
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "trunk",
+        "ref": "nim-eris-0.7.2",
         "repo": "eris",
         "type": "sourcehut"
       }

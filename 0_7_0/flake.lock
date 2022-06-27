@@ -65,7 +65,7 @@
         "base32": "base32",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-eris-trunk": "src-eris-trunk"
+        "src-eris-0_7_0": "src-eris-0_7_0"
       }
     },
     "src-base32-0_1_3": {
@@ -85,19 +85,19 @@
         "type": "github"
       }
     },
-    "src-eris-trunk": {
+    "src-eris-0_7_0": {
       "flake": false,
       "locked": {
-        "lastModified": 1647452825,
-        "narHash": "sha256-P+vGXU5ei4wOO7oMi7X37Yqvbim2+a51NM5XKOucnAM=",
+        "lastModified": 1643276935,
+        "narHash": "sha256-4jXPbakhSeDpozTtWpdtJoLeljcZuIKfGoSC9wVS8p4=",
         "owner": "~ehmry",
         "repo": "eris",
-        "rev": "973cdb044c50de7a953b38dc6c03ae000713b110",
+        "rev": "30489eabcfec67eda2e143bdca56e956469697b9",
         "type": "sourcehut"
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "trunk",
+        "ref": "0.7.0",
         "repo": "eris",
         "type": "sourcehut"
       }
