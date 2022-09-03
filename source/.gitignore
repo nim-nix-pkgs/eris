@@ -1,0 +1,3 @@
+tests/test_ingest
+tests/test_large
+tests/test_small
